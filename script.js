@@ -1,5 +1,3 @@
-document.getElementById("generate").onclick = generatePassword();
-
 function generatePassword() {
   var length = Number(prompt("Desired password length?"));
   var charType = prompt("Any preference? (special, numeric, uppercase, lowercase and random.");
