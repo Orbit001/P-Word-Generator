@@ -2,14 +2,14 @@
 function generatePassword() {
   var length = Number(prompt("Desired password length?"));
   if(length < 8) {
-    alert("Too low! Must be between 8-128!")
-    var length = Number(prompt("Desired password length?"));
+    alert("Too low! Set to 8 as minimum!")
+    var length = 8
   } else if(length > 128) {
-    alert("Too high! Must be between 8-128!")
-    var length = Number(prompt("Desired password length?"));
-  }else{
-  var charType = prompt("Any preference? (special, numeric, uppercase, lowercase and random.)");
+    alert("Too high! Set to 128 as maximum!")
+    var length = 128
   }
+  var charType = prompt("Any preference? (special, numeric, uppercase, lowercase and random.)");
+  
  
 
   var charSet = "";
