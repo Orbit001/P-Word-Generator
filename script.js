@@ -8,7 +8,7 @@ function generatePassword() {
     alert("Too high! Set to 128 as maximum!")
     var length = 128
   }
-  var charType = prompt("Any preference? (special, numeric, uppercase, lowercase and random.)");
+  var charType = prompt("Please type one character category of your choice. (special, numeric, uppercase, lowercase and random.)");
   
  
 
